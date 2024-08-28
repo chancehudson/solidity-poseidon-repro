@@ -1,0 +1,16 @@
+{
+  "name": "solidity-poseidon-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test --network sepolia ./test/a.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "hardhat": "^2.22.0"
+  }
+}
